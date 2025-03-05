@@ -177,6 +177,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .top-7 {
     top: calc(var(--spacing) * 7);
   }
