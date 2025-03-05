@@ -1,0 +1,9 @@
+.body{
+    font-family: Futura-Medium;
+}
+.flexc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
