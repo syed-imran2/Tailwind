@@ -8,6 +8,7 @@
       "Courier New", monospace;
     --color-amber-50: oklch(0.987 0.022 95.277);
     --color-teal-300: oklch(0.855 0.138 181.071);
+    --color-teal-600: oklch(0.6 0.118 184.704);
     --color-blue-500: oklch(0.623 0.214 259.815);
     --color-blue-600: oklch(0.546 0.245 262.881);
     --color-gray-100: oklch(0.967 0.003 264.542);
@@ -641,6 +642,9 @@
   .transform {
     transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
   }
+  .cursor-pointer {
+    cursor: pointer;
+  }
   .resize {
     resize: both;
   }
@@ -1043,6 +1047,34 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+  .hover\:bg-\[00\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: 00;
+      }
+    }
+  }
+  .hover\:bg-\[00b3\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: 00b3;
+      }
+    }
+  }
+  .hover\:bg-\[00b38\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: 00b38;
+      }
+    }
+  }
+  .hover\:bg-\[00b386\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: 00b386;
+      }
+    }
+  }
   .hover\:bg-gray-100 {
     &:hover {
       @media (hover: hover) {
@@ -1061,6 +1093,20 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-gray-500);
+      }
+    }
+  }
+  .hover\:bg-teal-600 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-teal-600);
+      }
+    }
+  }
+  .hover\:text-teal-600 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-teal-600);
       }
     }
   }
