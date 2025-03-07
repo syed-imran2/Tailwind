@@ -1,0 +1,15 @@
+ <!-- Mobile Menu -->
+ <div id="mobile-menu" class="hidden fixed top-16 right-0 w-full bg-white shadow-md z-50 transition-transform transform -translate-y-full md:hidden">
+    <ul class="flex flex-col p-4 space-y-2 text-gray-700">
+        <li><a href="#">Learn with Fund Guru</a></li>
+        <li><a href="#">Explore Funds</a></li>
+        <li><a href="#">Ask the Expert</a></li>
+        <li><a href="#"><span class="font-medium">Login/Register</span></a></li>
+    </ul>
+</div>
+<script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('translate-y-0');
+    });
