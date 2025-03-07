@@ -179,6 +179,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
